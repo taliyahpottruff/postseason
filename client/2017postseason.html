@@ -120,15 +120,13 @@
           <th>PCT</th>
           <th>E#</th>
         </tr>
-        {{alecount}}
         {{#each ale}}
-        wtf
         <tr>
           <td>{{name}}</td>
-          <td>90</td>
-          <td>56</td>
-          <td>.616</td>
-          <td>-</td>
+          <td>{{wins}}</td>
+          <td>{{losses}}</td>
+          <td>{{avg}}</td>
+          <td>{{elimination}}</td>
         </tr>
         {{/each}}
       </table>
@@ -143,20 +141,15 @@
           <th>PCT</th>
           <th>E#</th>
         </tr>
+        {{#each alc}}
         <tr>
-          <td>Cleveland Indians</td>
-          <td>90</td>
-          <td>56</td>
-          <td>.616</td>
-          <td>-</td>
+          <td>{{name}}</td>
+          <td>{{wins}}</td>
+          <td>{{losses}}</td>
+          <td>{{avg}}</td>
+          <td>{{elimination}}</td>
         </tr>
-        <tr>
-          <td>Minnesota Twins</td>
-          <td>75</td>
-          <td>69</td>
-          <td>.521</td>
-          <td>4</td>
-        </tr>
+        {{/each}}
       </table>
       <table>
         <tr>

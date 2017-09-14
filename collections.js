@@ -1,1 +1,1 @@
-Teams = new Mongo.Collection('teams');
+Standings = new Mongo.Collection('teams');

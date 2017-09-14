@@ -34,6 +34,7 @@ td {
 
 .standings table {
   display: inline-table;
+  margin-right: 25px;
 }
 
 .standings tr {
