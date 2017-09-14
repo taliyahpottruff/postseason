@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+
+td {
+  padding: 5px;
+}
+
+.series {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 210px;
+}
+
+.top {
+  border-bottom: 1px solid black;
+}
+
+.left {
+  border-right: 1px solid black;
+}
+
+.noclinch {
+  color: red;
+}
+
+.noseed {
+  color: blue;
+}
+
+.playoffberth {
+  color: green;
+}
+
+.standings table {
+  display: inline-table;
+}
+
+.standings tr {
+  border-bottom: 1px solid grey;
+}
