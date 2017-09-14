@@ -162,34 +162,15 @@
           <th>PCT</th>
           <th>E#</th>
         </tr>
+        {{#each alw}}
         <tr>
-          <td>Houston Astros</td>
-          <td>87</td>
-          <td>57</td>
-          <td>.604</td>
-          <td>-</td>
+          <td>{{name}}</td>
+          <td>{{wins}}</td>
+          <td>{{losses}}</td>
+          <td>{{avg}}</td>
+          <td>{{elimination}}</td>
         </tr>
-        <tr>
-          <td>Los Angeles Angels of Anaheim</td>
-          <td>73</td>
-          <td>71</td>
-          <td>.507</td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <td>Seattle Mariners</td>
-          <td>73</td>
-          <td>73</td>
-          <td>.500</td>
-          <td>3</td>
-        </tr>
-        <tr>
-          <td>Texas Rangers</td>
-          <td>72</td>
-          <td>73</td>
-          <td>.497</td>
-          <td>3</td>
-        </tr>
+        {{/each}}
       </table>
       <table>
         <tr>
@@ -202,41 +183,15 @@
           <th>PCT</th>
           <th>E#</th>
         </tr>
+        {{#each nlc}}
         <tr>
-          <td>Chicago Cubs</td>
-          <td>78</td>
-          <td>66</td>
-          <td>.542</td>
-          <td>-</td>
+          <td>{{name}}</td>
+          <td>{{wins}}</td>
+          <td>{{losses}}</td>
+          <td>{{avg}}</td>
+          <td>{{elimination}}</td>
         </tr>
-        <tr>
-          <td>St. Louis Cardinals</td>
-          <td>76</td>
-          <td>69</td>
-          <td>.524</td>
-          <td>16</td>
-        </tr>
-        <tr>
-          <td>Milwaukee Brewers</td>
-          <td>76</td>
-          <td>69</td>
-          <td>.524</td>
-          <td>16</td>
-        </tr>
-        <tr>
-          <td>Pittsburgh Pirates</td>
-          <td>68</td>
-          <td>78</td>
-          <td>.466</td>
-          <td>7</td>
-        </tr>
-        <tr>
-          <td>Cincinnati Reds</td>
-          <td>63</td>
-          <td>83</td>
-          <td>.432</td>
-          <td>2</td>
-        </tr>
+        {{/each}}
       </table>
       <table>
         <tr>
@@ -249,27 +204,15 @@
           <th>PCT</th>
           <th>E#</th>
         </tr>
+        {{#each nlw}}
         <tr>
-          <td>Los Angeles Dodgers</td>
-          <td>93</td>
-          <td>52</td>
-          <td>.641</td>
-          <td>-</td>
+          <td>{{name}}</td>
+          <td>{{wins}}</td>
+          <td>{{losses}}</td>
+          <td>{{avg}}</td>
+          <td>{{elimination}}</td>
         </tr>
-        <tr>
-          <td>Arizona Diamondbacks</td>
-          <td>83</td>
-          <td>62</td>
-          <td>.572</td>
-          <td>8</td>
-        </tr>
-        <tr>
-          <td>Colorado Rockies</td>
-          <td>80</td>
-          <td>65</td>
-          <td>.552</td>
-          <td>5</td>
-        </tr>
+        {{/each}}
       </table>
     </div>
 </template>
