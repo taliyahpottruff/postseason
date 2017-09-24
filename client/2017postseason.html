@@ -10,7 +10,7 @@
       </tr>
       <tr>
         <td>
-          <table class="series"><tr><td class="top left noclinch">Minnesota Twins</td><td class="top">0</td></tr><tr><td class="left noclinch">New York Yankees</td><td>0</td></tr></table>
+          <table class="series"><tr><td class="top left noclinch">Minnesota Twins</td><td class="top">0</td></tr><tr><td class="left playoffberth">New York Yankees</td><td>0</td></tr></table>
         </td>
         <td>
           <svg width="25" height="50">
@@ -18,7 +18,7 @@
           </svg>
         </td>
         <td>
-          <table class="series"><tr><td class="top left">&nbsp;</td><td class="top"></td></tr><tr><td class="left noclinch">Cleveland Indians</td><td>0</td></tr></table>
+          <table class="series"><tr><td class="top left">&nbsp;</td><td class="top"></td></tr><tr><td class="left noseed">Cleveland Indians</td><td>0</td></tr></table>
         </td>
         <td></td>
         <td>&nbsp;</td>
@@ -26,7 +26,7 @@
         <td></td>
         <td></td>
         <td>
-          <table class="series"><tr><td class="top left">&nbsp;</td><td class="top"></td></tr><tr><td class="left playoffberth">Los Angeles Dodgers</td><td>0</td></tr></table>
+          <table class="series"><tr><td class="top left">&nbsp;</td><td class="top"></td></tr><tr><td class="left">Los Angeles Dodgers</td><td>0</td></tr></table>
         </td>
         <td>
           <svg width="25" height="50">
@@ -76,7 +76,7 @@
         <td></td>
         <td></td>
         <td>
-          <table class="series"><tr><td class="top left noclinch">Boston Red Sox</td><td class="top">0</td></tr><tr><td class="left noclinch">Houston Astros</td><td>0</td></tr></table>
+          <table class="series"><tr><td class="top left playoffberth">Boston Red Sox</td><td class="top">0</td></tr><tr><td class="left noseed">Houston Astros</td><td>0</td></tr></table>
         </td>
         <td></td>
         <td></td>
@@ -132,48 +132,6 @@
       </table>
       <table>
         <tr>
-          <th colspan="4">AL Central</th>
-        </tr>
-        <tr>
-          <th>Team</th>
-          <th>W</th>
-          <th>L</th>
-          <th>PCT</th>
-          <th>E#</th>
-        </tr>
-        {{#each alc}}
-        <tr>
-          <td>{{name}}</td>
-          <td>{{wins}}</td>
-          <td>{{losses}}</td>
-          <td>{{avg}}</td>
-          <td>{{elimination}}</td>
-        </tr>
-        {{/each}}
-      </table>
-      <table>
-        <tr>
-          <th colspan="4">AL West</th>
-        </tr>
-        <tr>
-          <th>Team</th>
-          <th>W</th>
-          <th>L</th>
-          <th>PCT</th>
-          <th>E#</th>
-        </tr>
-        {{#each alw}}
-        <tr>
-          <td>{{name}}</td>
-          <td>{{wins}}</td>
-          <td>{{losses}}</td>
-          <td>{{avg}}</td>
-          <td>{{elimination}}</td>
-        </tr>
-        {{/each}}
-      </table>
-      <table>
-        <tr>
           <th colspan="4">NL Central</th>
         </tr>
         <tr>
@@ -195,7 +153,7 @@
       </table>
       <table>
         <tr>
-          <th colspan="4">NL West</th>
+          <th colspan="4">AL Wildcard</th>
         </tr>
         <tr>
           <th>Team</th>
@@ -204,7 +162,28 @@
           <th>PCT</th>
           <th>E#</th>
         </tr>
-        {{#each nlw}}
+        {{#each alwc}}
+        <tr>
+          <td>{{name}}</td>
+          <td>{{wins}}</td>
+          <td>{{losses}}</td>
+          <td>{{avg}}</td>
+          <td>{{elimination}}</td>
+        </tr>
+        {{/each}}
+      </table>
+      <table>
+        <tr>
+          <th colspan="4">NL Wildcard</th>
+        </tr>
+        <tr>
+          <th>Team</th>
+          <th>W</th>
+          <th>L</th>
+          <th>PCT</th>
+          <th>E#</th>
+        </tr>
+        {{#each nlwc}}
         <tr>
           <td>{{name}}</td>
           <td>{{wins}}</td>
